@@ -17,5 +17,6 @@ Get the native timezone from ios.
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '8.0'
+  s.resource_bundles = {'flutter_native_timezone_privacy' => ['PrivacyInfo.xcprivacy']}
 end
 
